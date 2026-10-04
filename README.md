@@ -1,17 +1,27 @@
-# flutter_application_receitas
+# App de Receitas Favoritas
 
-A new Flutter project.
+Projeto feito em Flutter para uma atividade de desenvolvimento de aplicativos.
 
-## Getting Started
+O aplicativo possui receitas divididas em três categorias:
 
-This project is a starting point for a Flutter application.
+* Doces
+* Salgadas
+* Bebidas
 
-A few resources to get you started if this is your first Flutter project:
+Ao clicar em uma receita, é possível ver os ingredientes e o modo de preparo.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Também possui um menu lateral (Drawer) com as opções de **Configurações** e **Sobre**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias
+
+* Flutter
+* Dart
+
+## Como executar
+
+Para rodar o projeto, abra a pasta no VS Code e execute:
+
+```bash
+flutter pub get
+flutter run
+```
